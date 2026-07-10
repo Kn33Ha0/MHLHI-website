@@ -33,3 +33,33 @@
   overflow-y: auto;  
   box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
 }
+
+.inquire-btn::-webkit-details-marker {
+  display: none;
+}
+
+/* Hover effect */
+.inquire-btn:hover {
+  background-color: #0b5ed7;
+}
+
+/* Position it at the bottom right */
+.popup-form {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2000;
+}
+
+/* The actual window styling */
+.popup-content {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 350px;
+  position: absolute;
+  bottom: 60px; /* Sits just above the button */
+  right: 0;
+  box-shadow: 0 -5px 15px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
