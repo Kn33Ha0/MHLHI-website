@@ -1,3 +1,4 @@
+/* Remove the default arrow */
 .inquire-btn {
   list-style: none; /* Chrome/Firefox */
   cursor: pointer;
@@ -11,17 +12,7 @@
   width: 120px;   /* Or whatever width you prefer */
 }
 
-
-.popup-content {
-  background: white;
-  padding: 20px;
-  border: 1px solid #ccc;
-  width: 350px;
-  max-height: 500px; 
-  overflow-y: auto;  
-  box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
-}
-
+/* Remove arrow for Safari */
 .inquire-btn::-webkit-details-marker {
   display: none;
 }
