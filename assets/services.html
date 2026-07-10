@@ -93,12 +93,59 @@
                 <td>₱ 4,000</td>
                 </tr>
 
+                <button class="btn btn-primary inquire" type="button" data-bs-toggle="modal" data-bs-target="#inquiryModal">
+                    Inquire
+                </button>
+                
             </tbody>
         </table>
         
 
 
-        
+        <form id="inquiryForm">
+            <!-- Name -->
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+
+            <!-- Full Address -->
+            <div class="mb-3">
+                <label for="address" class="form-label">Full Delivery Address</label>
+                <textarea class="form-control" id="address" rows="2" required></textarea>
+            </div>
+
+            <!-- Mode of Payment (Radio Buttons) -->
+            <div class="mb-3">
+                <label class="form-label">Mode of Payment</label>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="payment" id="gcash" value="gcash" required>
+                <label class="form-check-label" for="gcash">GCash</label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="payment" id="bank" value="bank">
+                <label class="form-check-label" for="bank">Bank-to-Bank</label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="payment" id="cod" value="cod">
+                <label class="form-check-label" for="cod">Cash on Delivery (COD)</label>
+                </div>
+            </div>
+
+            <!-- Inquiry Message -->
+            <div class="mb-3">
+                <label for="message" class="form-label">Inquiry / Order Details</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="What materials and how much do you need?"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+        </form>
 
 
             
