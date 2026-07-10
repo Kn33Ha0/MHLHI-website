@@ -1,7 +1,7 @@
 /* file specifically for webpage headers*/
 .jumbotron-bg {
     min-height: 400px;
-    background-image: url('/images/jumbotron-background.png');
+    background-image: url('/workspaces/MHLHI-website/images/jumbotron-background.png');
     background-size: cover;          
     background-position: center;     
     background-repeat: no-repeat;
