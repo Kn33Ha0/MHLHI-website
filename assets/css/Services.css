@@ -8,3 +8,12 @@
     padding: 15px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
+
+.inquire {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050; 
+    padding: 15px 25px;
+    border-radius: 50px; 
+}
