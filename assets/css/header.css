@@ -1,6 +1,6 @@
 /* file specifically for webpage headers*/
 .jumbotron-bg {
-    background-image: url('../images/jumbotron-background.png'); /* Replace with your image path */
+    background-image: url('../assets/images/jumbotron-background.png'); /* Replace with your image path */
     background-size: cover;          /* Keeps it filled, no white edges */
     background-position: center;     /* Keeps the center of the photo in view */
     background-repeat: no-repeat;
