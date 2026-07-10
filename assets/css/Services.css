@@ -9,14 +9,20 @@
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
-.inquire {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1050; 
-    padding: 15px 25px;
-    border-radius: 50px; 
+
+.inquire-btn {
+  list-style: none; /* Chrome/Firefox */
+  cursor: pointer;
+  background-color: #0d6efd; /* Bootstrap blue */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  display: block; /* Makes the summary behave like a button */
+  width: 120px;   /* Or whatever width you prefer */
 }
+
 
 .popup-content {
   background: white;
