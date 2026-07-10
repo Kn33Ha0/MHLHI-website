@@ -1,5 +1,6 @@
 /* file specifically for webpage headers*/
 .jumbotron-bg {
+    min-height: 400px;
     background-image: url('/images/jumbotron-background.png');
     background-size: cover;          
     background-position: center;     
