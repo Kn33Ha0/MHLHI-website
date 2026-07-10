@@ -17,3 +17,13 @@
     padding: 15px 25px;
     border-radius: 50px; 
 }
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 350px;
+  max-height: 500px; /* Limits height so it doesn't cover the whole screen */
+  overflow-y: auto;  /* Adds a scrollbar if the form is too long */
+  box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
+}
